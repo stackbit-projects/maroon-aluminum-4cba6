@@ -41,7 +41,7 @@ export default class Action extends React.Component {
                                 'sr-only': iconPos === 'center'
                             })}
                         >
-                            {label + 123123}
+                            {label + 12312312}
                         </span>
                     </React.Fragment>
                 ) :
