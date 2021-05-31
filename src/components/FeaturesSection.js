@@ -133,7 +133,7 @@ export default class FeaturesSection extends React.Component {
                         })}
                     >
                         {subtitle && <div className="section__subtitle">{subtitle}</div>}
-                        {title && <h2 className="section__title mt-0">{title + 22}</h2>}
+                        {title && <h2 className="section__title mt-0">{title + 2}</h2>}
                     </div>
                 )}
                 {!_.isEmpty(features) && (
