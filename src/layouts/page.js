@@ -10,7 +10,7 @@ export default class Page extends React.Component {
         const config = _.get(data, 'config');
         const page = _.get(this.props, 'page');
         const title = _.get(page, 'title');
-        console.log(title)
+        console.log(title) 
         const markdownContent = _.get(page, 'markdown_content');
 
         return (
